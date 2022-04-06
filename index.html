@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>City Break</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/2e9dcf59b5.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div class="preloader">
+      <img src="./img/preloader.gif" alt="preloader" class="preloader-item" />
+    </div>
+    <!--HEADER-->
+    <header class="header" id="header">
+      <div class="banner">
+        <h1 class="banner-title">City-Break Travel</h1>
+        <div class="banner-icons">
+          <a href="#" class="banner-social-icon">
+            <i class="fab fa-facebook fa-fw"></i>
+          </a>
+          <a href="#" class="banner-social-icon">
+            <i class="fab fa-twitter fa-fw"></i>
+          </a>
+          <a href="#" class="banner-social-icon">
+            <i class="fab fa-google-plus fa-fw"></i>
+          </a>
+          <a href="#" class="banner-social-icon">
+            <i class="fab fa-instagram fa-fw"></i>
+          </a>
+        </div>
+      </div>
+      <!--video-->
+      <article class="video-container">
+        <video class="video-item" autoplay muted loop>
+          <source src="./video/video-background.mp4" type="video/mp4" />
+          <source src="./video/video-background.ogv" type="video/ogv" />
+          <source src="./video/video-background.webm" type="video/webm" />
+          Your browser does not support video tag
+        </video>
+      </article>
+
+      <div class="navBtn">
+        <i class="fas fa-bars"></i>
+      </div>
+
+      <nav class="nav">
+        <ul class="nav-links">
+          <li>
+            <a href="#" class="nav-link-single nav-logo">
+              <img id="logo" src="./img/logo.png" alt="logo" />
+            </a>
+          </li>
+          <li><a href="#header" class="nav-link-single">home</a></li>
+          <li><a href="#about" class="nav-link-single">about</a></li>
+          <li><a href="#destinations" class="nav-link-single">destinations</a></li>
+          <li><a href="#contact" class="nav-link-single">contact</a></li>
+        </ul>
+      </nav>
+      <div class="video-switch-container">
+        <div class="video-switch">
+          <span>on</span>
+          <span>off</span>
+          <div class="video-switch-btn"></div>
+        </div>
+      </div>
+    </header>
+
+    <!--ABOUT-->
+    <section class="about section-padding" id="about">
+      <div class="grid-container grid-container-medium">
+        <article class="about-container">
+          <div class="section-title">
+            <h1 class="section-title-name">Our Story</h1>
+            <div class="section-title-underline"></div>
+            <p class="section-title-text">
+              Our travel agency was born out of passion for travelling and
+              exploring great cities. Our destinations include five cities in
+              Europe, six cities in the US, and three cities in Asia.
+            </p>
+          </div>
+          <div class="about-img">
+            <img
+              src="./img/about.jpeg"
+              class="about-img-item"
+              alt="about img"
+            />
+          </div>
+        </article>
+
+        <article class="about-container">
+          <div class="section-title">
+            <h1 class="section-title-name">What we do</h1>
+            <div class="section-title-underline"></div>
+            <p class="section-title-text">
+              We organize first-class trips to the great cities of Europe, Asia,
+              and North America. Our packages include everything from tickets to
+              the finest hotels and dining experiences.
+            </p>
+          </div>
+          <div class="about-img about-img-special">
+            <img src="./img/story.jpg" class="about-img-item" alt="about img" />
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact section-padding" >
+      <div class="grid-container">
+        <!--first item-->
+        <form class="contact-form">
+          <p class="contact-form-feedback">Some Text</p>
+          <h3 class="contact-form-title">
+            To sign up for more information and prices
+          </h3>
+          <div class="contact-form-input">
+            <input
+              type="text"
+              name=""
+              id=""
+              maxlength="15"
+              class="input-name"
+              placeholder="name"
+            />
+          </div>
+          <div class="contact-form-input">
+            <input
+              type="text"
+              name=""
+              id=""
+              maxlength="15"
+              class="input-lastname"
+              placeholder="last name"
+            />
+          </div>
+          <div class="contact-form-input">
+            <input
+              type="email"
+              name=""
+              id=""
+              maxlength="50"
+              class="input-email"
+              placeholder="email"
+            />
+          </div>
+          <div class="contact-form-input">
+            <input type="submit" value="sign-up" class="input-submit" />
+          </div>
+        </form>
+        <!--second item-->
+        <article class="contact-card">
+          <h3 class="contact-card-title">Happy clients:</h3>
+          <div class="contact-card-list">
+            <div class="person">
+              <img
+                src="./img/person3.jpeg"
+                alt="avatar"
+                class="person-thumbnail"
+              />
+              <h4 class="person-name">Jhon</h4>
+              <h4 class="person-lastname">Doe</h4>
+            </div>
+            <div class="person">
+              <img
+                src="./img/person2.jpeg"
+                alt="avatar"
+                class="person-thumbnail"
+              />
+              <h4 class="person-name">Benjamin</h4>
+              <h4 class="person-lastname">Doe</h4>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="destinations section-padding" id="destinations">
+      <div class="section-title section-title-left">
+        <h1 class="section-title-name">Our destinations</h1>
+        <div class="section-title-underline"></div>
+      </div>
+
+      <div class="destinations-container">
+        <article class="destinations-item item-1">
+          <img
+            src="img/grid1.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="1">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-2">
+          <img
+            src="img/grid2.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="2">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-3">
+          <img
+            src="img/grid3.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="3">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-4">
+          <img
+            src="img/grid4.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="4">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-5">
+          <img
+            src="img/grid5.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="5">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-6">
+          <img
+            src="img/grid6.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="6">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-7">
+          <img
+            src="img/grid7.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="7">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-8">
+          <img
+            src="img/grid8.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="8">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-9">
+          <img
+            src="img/grid9.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="9">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <article class="destinations-item item-10">
+          <img
+            src="img/grid10.jpeg"
+            alt="destination image"
+            class="destination-item-img"
+          />
+          <a href="#" class="destination-item-icon" data-id="10">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+      </div>
+
+      <div class="destination-modal">
+        <div class="destination-modal-item"></div>
+        <div class="destination-modal-close">
+          <i class="fas fa-window-close"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section-padding" id="contact">
+      <div class="section-title section-title-left">
+        <h1 class="section-title-name">Contacts</h1>
+        <div class="section-title-underline"></div>
+      </div>
+
+      <div class="contact-container">
+        <iframe
+          class="contact-map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4472.6361689591!2d20.25793077377604!3d63.82465686261613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x467c4e1b68add7f9%3A0x4034506de8c8560!2zVW1lw6U!5e0!3m2!1ssv!2sse!4v1649178090233!5m2!1ssv!2sse"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <div class="contact-info">
+          <!--item1-->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fas fa-map-pin"></i>
+              <h2 class="contact-item-title">Adress</h2>
+              <p class="contact-item-text">90655 web-design street , Umeå</p>
+            </div>
+          </div>
+          <!--item2-->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fas fa-headphones"></i>
+              <h2 class="contact-item-title">Support</h2>
+              <p class="contact-item-text">
+                <span><i class="fas fa-map-phone"></i></span>+46701231212
+              </p>
+              <p class="contact-item-text">
+                <span><i class="fas fa-map-envelope"></i></span>email@email.org
+              </p>
+            </div>
+          </div>
+          <!--item3-->
+          <div class="contact-item">
+            <div class="contact-item-icon">
+              <i class="fas fa-clock"></i>
+              <h2 class="contact-item-title">Work Time</h2>
+              <p class="contact-item-text">monday - friday 08:00 - 21:00</p>
+              <p class="contact-item-text">saturday - sunday 10:00 - 18:00</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
