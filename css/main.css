@@ -558,7 +558,7 @@ body {
 }
 
 .destination-modal-close {
-  color: tomato;
+  color: greenyellow;
   position: fixed;
   font-size: 3rem;
   top: 5%;
@@ -567,7 +567,7 @@ body {
 }
 
 .destination-modal-close:hover {
-  color: greenyellow;
+  color: tomato;
   cursor: pointer;
 }
 
